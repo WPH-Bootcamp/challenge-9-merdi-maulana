@@ -32,7 +32,7 @@ export function AvatarDropdown() {
             <AvatarImage src={user?.avatar || defaultAvatar} alt={user?.name} />
             <AvatarFallback>{user?.name?.charAt(0) || "U"}</AvatarFallback>
           </Avatar>
-          <div>
+          <div className="hidden md:block">
             <p className="font-medium text-sm">{user?.name || "Tamu"}</p>
           </div>
         </Button>
