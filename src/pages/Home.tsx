@@ -71,7 +71,7 @@ export default function Home() {
   return (
     <div className="bg-white text-black pb-16 w-full">
       {/* ... (Hero Section dan Categories tetap sama persis) ... */}
-      <div className="justify-center items-center flex flex-col h-162 md:h-207 gap-6 overflow-hidden">
+      <div className="justify-center items-center relative md:static flex flex-col h-162 md:h-207 gap-6 overflow-hidden">
         <div className="absolute inset-0 left-0 right-0 top-0 w-screen">
           <img
             src={heroimg}
